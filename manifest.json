@@ -1,0 +1,27 @@
+{
+  "name": "Filmow Redesign",
+  "description": "Redesign mais limpo e atual para o site Filmow.",
+  "version": "1.0.0",
+
+  "icons": {
+    "16": "images/ext-logo.png",
+    "48": "images/ext-logo.png",
+    "128": "images/ext-logo.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/ext-logo.png",
+      "48": "images/ext-logo.png",
+      "128": "images/ext-logo.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://filmow.com/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 3
+}
