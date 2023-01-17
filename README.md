@@ -4,7 +4,7 @@
 
 Still on development.
 
-
+---
 
 [pt-br] Redesign ligeiramente mais limpo e moderno do site Filmow. Para testar no seu navegador, baixe os arquivos em uma pasta e carregue sem compactação na página de extensões do seu Google Chrome.
 
