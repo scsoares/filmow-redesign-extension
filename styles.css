@@ -27,7 +27,7 @@ iframe {
   display: none !important;
 }
 
-/*slogan and film logo*/
+/* Slogan and film logo */
 
 .navbar-filmow .slogan {
   color: #4e4e4e !important;
@@ -92,7 +92,7 @@ nav div .navbar-inner {
   padding-left: 25px !important;
 }
 
-/*header navbar*/
+/* Header navbar */
 
 [title^='Assistindo Agora'] {
   display: none !important;
@@ -123,7 +123,7 @@ div .dropdown {
   color: #00ace4 !important;
 }
 
-/*header*/
+/* Header */
 
 #header .clearfix {
   background-color: #ffff !important;
@@ -145,6 +145,11 @@ div .navbar-inner .pull-left {
   background-color: none !important;
 }
 
+a .dropdown-toggle {
+  background-color: #fff !important;
+  z-index: -90000 !important;
+}
+
 .container-align-items {
   padding-top: 5px !important;
   padding-bottom: 0px !important;
@@ -155,7 +160,7 @@ div .navbar-inner .pull-left {
   padding: 15x !important;
 }
 
-/*page-section-title-dark*/
+/* Movie section */
 
 .page-section-title-dark:not(.dropdown li) {
   font-size: 8x !important;
@@ -188,7 +193,11 @@ div .page-section-title-dark {
   text-transform: lowercase !important;
 }
 
-/*page-section-dark*/
+.btn-title-tag .title-section {
+  background-color: #142842 !important;
+}
+
+/* Movie section */
 
 .page-section-dark {
   background-color: #142842 !important;
@@ -201,7 +210,6 @@ img.lazyloaded {
   border-width: 0 !important;
   border: 0 !important;
   border-radius: 10px !important;
-  /*-webkit-box-shadow: 10 10px 10px rgba(0, 0, 0, 0.5) !important;*/
 }
 
 div .title-section a {
@@ -232,7 +240,7 @@ span.title {
   margin-left: -7px !important;
 }
 
-/* movie-rating-average */
+/* Rating average */
 
 .movie-rating-average {
   background-image: none !important;
@@ -242,7 +250,7 @@ span.title {
   text-shadow: none !important;
 }
 
-/*vídeo dailymotion*/
+/* Dailymotion video */
 
 .container__video-black {
   display: none !important;
@@ -256,7 +264,7 @@ span.title {
   border-bottom-right-radius: 10px;
 }
 
-/* Cadastro */
+/* Questionnaire notice */
 
 .btn-warning {
   background-image: none !important;
@@ -265,10 +273,78 @@ span.title {
   text-shadow: none !important;
 }
 
-/* Movies-dvd container */
-
-/* Gêneros */
+/* Genres */
 
 .sidebar__container-title-genres span {
   font-size: 14px !important;
+}
+
+/* Movie advanced search */
+.sidebar__container-pattern {
+  background-color: #e2ebee !important;
+  border: none !important;
+}
+
+.badge-num-comments {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3) !important;
+}
+
+/* Groups */
+
+.sidebar__container-groups a {
+  text-transform: none !important;
+}
+
+.group__info {
+  align-items: flex-start !important;
+}
+
+/* My Filmow */
+
+.sidebar-my-filmow .row .span3 {
+  justify-content: center !important;
+  margin-right: 0px;
+  margin-left: 70px !important;
+  padding-right: 0px;
+  width: 110px !important;
+}
+
+.sidebar-my-filmow .row .span3 a {
+  justify-content: center !important;
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 110px !important;
+}
+
+.sidebar-my-filmow .row .tab-content {
+  padding-top: 25px !important;
+}
+
+.sidebar-my-filmow .nav-tabs a {
+  padding-right: 8px !important;
+  padding-left: 8px !important;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+.sidebar-my-filmow .row .avatar {
+  margin-left: 0px !important;
+  position: absolute !important;
+  padding: 0px 0px;
+  height: 30px !important;
+}
+
+.sidebar-my-filmow .row .avatar-medium {
+  border-radius: 50%;
+  padding: 0px 0px 0px 0px !important;
+}
+
+/* Genres */
+
+.sidebar__container-genres span {
+  text-transform: none !important;
+}
+
+.sidebar__container-genres {
+  border: none !important;
+  background-color: #e2ebee !important;
 }
