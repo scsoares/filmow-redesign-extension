@@ -14,7 +14,10 @@ body {
     .icon-plus-sign,
     .icon-time,
     .icon-remove-circle,
-    .icon-globe
+    .icon-globe,
+    .icon-twitter-sign,
+    .icon-facebook-sign,
+    .icon-key
   ) {
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -260,8 +263,6 @@ span.title {
 .news__article-main-content {
   background-color: #142842 !important;
   padding: 30px 12px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 /* Questionnaire notice */
@@ -347,4 +348,62 @@ span.title {
 .sidebar__container-genres {
   border: none !important;
   background-color: #e2ebee !important;
+}
+
+/* Birthday sidebar */
+
+.sidebar__container-birthday a {
+  text-transform: none !important;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #142842 !important;
+}
+
+#footer .container {
+  font-size: 12px !important;
+  line-height: 6px !important;
+  justify-content: center !important;
+  width: 1000px !important;
+}
+
+.footer__sub-container {
+  width: 1000px !important;
+}
+
+/* Taboola below articles */
+
+#taboola-below-article-thumbnails {
+  display: none !important;
+}
+
+/* Movie profile */
+
+.bg-cover-movie {
+  display: none !important;
+}
+
+.movie-profile {
+  background-color: #142842 !important;
+}
+
+.trailer-container {
+  background-color: #21a9df !important;
+  border-radius: 30px !important;
+}
+
+.movie_list_item_cover_only {
+  border: none !important;
+  border-radius: 10px;
+}
+
+.movie-resume {
+  background-color: #142842 !important;
+}
+
+.movie-report,
+.releases {
+  color: #b4bdc0 !important;
 }
