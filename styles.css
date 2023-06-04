@@ -1,5 +1,5 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   background-color: #fff !important;
@@ -19,7 +19,7 @@ body {
     .icon-facebook-sign,
     .icon-key
   ) {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 i .icon-globe {
@@ -86,6 +86,7 @@ nav div .navbar-inner {
   position: -webkit-sticky !important;
   position: sticky !important;
   top: 0 !important;
+  border-top: 5px #142842 !important;
 }
 
 .navbar-inner .nav > li > a {
@@ -128,8 +129,17 @@ div .dropdown {
 
 /* Header */
 
-#header .clearfix {
+#header {
   background-color: #ffff !important;
+  margin-bottom: #142842 20px;
+}
+
+.ads-mb-10 {
+  margin-bottom: 0px !important;
+}
+
+.ads-mt-10 {
+  margin-top: 0px !important;
 }
 
 .navbar-main .navbar-inner {
@@ -161,6 +171,16 @@ a .dropdown-toggle {
 .navbar-main {
   border-right: 40px !important;
   padding: 15x !important;
+}
+
+.nav-submenu {
+  background-color: #d4d9df !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.nav-submenu .active {
+  color: #fff !important;
 }
 
 /* Movie section */
@@ -394,7 +414,7 @@ span.title {
   border-radius: 30px !important;
 }
 
-.movie_list_item_cover_only {
+.movie_list_item {
   border: none !important;
   border-radius: 10px;
 }
@@ -406,4 +426,141 @@ span.title {
 .movie-report,
 .releases {
   color: #b4bdc0 !important;
+}
+
+.navbar-itunes {
+  display: none !important;
+}
+
+.btn {
+  font-size: 12px !important;
+}
+
+.running_time {
+  color: #000000 !important;
+}
+
+.description {
+  color: #000000 !important;
+}
+
+.release_date {
+  color: #000000 !important;
+}
+
+.star-rating-container strong {
+  float: inherit !important;
+}
+
+.movie-resume {
+  background-color: #d4d9df !important;
+}
+
+.releases {
+  color: #19647e !important;
+}
+
+.movie-report {
+  color: #19647e !important;
+}
+
+.movie-other-titles-toggle {
+  color: #21a9df !important;
+  margin-left: 5px;
+  font-size: 12px !important;
+}
+
+.movie-details-more {
+  background-color: #d4d9df !important;
+}
+
+.movie-details-more .span5 {
+  float: right;
+}
+
+.wrapper img {
+  border-radius: 3px !important;
+  border: none !important;
+}
+
+/* Movie comments */
+
+.form-inline {
+  margin-bottom: 0px !important;
+}
+
+.commenting-buttons {
+  margin-top: 5px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.comment-text {
+  font-size: 14px !important;
+}
+
+.right-content {
+  border-left: 0px !important;
+}
+
+/* Movie profile sidebar */
+
+.icon-globe {
+  margin-left: 5px !important;
+}
+
+/* Register page */
+
+.filmow-breadcrumb {
+  margin-top: 2px !important;
+}
+
+.span8 title-section {
+  margin: 5px 0 5px !important;
+}
+
+.container {
+  border-top: 20px #142842 !important;
+}
+
+.navbar-inner {
+  margin-bottom: 10px #142842 !important;
+}
+
+.span1 img {
+  border-radius: 4px;
+}
+
+.sidebar-top-movies {
+  display: ;
+}
+
+.span3 h3 {
+  line-height: 25px !important;
+}
+
+.sidebar-box .span2 {
+  display: inline !important;
+}
+
+.tip-user img {
+  border-radius: 50% !important;
+}
+
+.control-group .email {
+  margin-top: 5px !important;
+}
+
+.sidebar-last-users {
+  padding-top: 35px !important;
+}
+
+.span4 {
+  margin-bottom: 5px !important;
+}
+
+.form-actions {
+  background-color: #fff !important;
 }
