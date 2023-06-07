@@ -94,6 +94,7 @@ nav div .navbar-inner {
   padding-right: 25px !important;
   padding-bottom: 13px !important;
   padding-left: 25px !important;
+  font-size: 13px !important;
 }
 
 /* Header navbar */
@@ -208,8 +209,9 @@ div .page-section-title-dark {
   text-decoration: none !important;
 }
 
-.container__title-dark h2 {
-  font-size: 12px !important;
+.container__title-dark h2 a {
+  font-size: 18px !important;
+  color: #21a9df !important;
 }
 
 .btn-title-tag {
@@ -220,19 +222,19 @@ div .page-section-title-dark {
   background-color: #142842 !important;
 }
 
-/* Movie section */
+/* Movie section homepage */
 
 .page-section-dark {
   background-color: #142842 !important;
   padding-bottom: 20px;
 }
 
-img.lazyloaded {
-  border-radius: 5px;
+img.lazyloaded:not(.stars) {
   border: none !important;
   border-width: 0 !important;
   border: 0 !important;
   border-radius: 10px !important;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
 }
 
 div .title-section a {
@@ -478,9 +480,14 @@ span.title {
   float: right;
 }
 
-.wrapper img {
-  border-radius: 3px !important;
+.wrapper img:not(.stars) {
+  border-radius: 5px !important;
   border: none !important;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
+}
+
+.movie-status {
+  display: none !important;
 }
 
 /* Movie comments */
@@ -493,8 +500,9 @@ span.title {
   margin-top: 5px;
 }
 
-.avatar img {
+.avatar .tip-user img {
   border-radius: 50%;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.5) !important;
 }
 
 .comment-text {
@@ -508,7 +516,11 @@ span.title {
 /* Movie profile sidebar */
 
 .icon-globe {
-  margin-left: 5px !important;
+  margin-left: 4px !important;
+}
+
+.sidebar-box .title-section h4 {
+  font-size: 16px !important;
 }
 
 /* Register page */
@@ -533,10 +545,6 @@ span.title {
   border-radius: 4px;
 }
 
-.sidebar-top-movies {
-  display: ;
-}
-
 .span3 h3 {
   line-height: 25px !important;
 }
@@ -544,17 +552,15 @@ span.title {
 .sidebar-box .span2 {
   display: inline !important;
 }
-
 .tip-user img {
   border-radius: 50% !important;
 }
-
 .control-group .email {
   margin-top: 5px !important;
 }
 
 .sidebar-last-users {
-  padding-top: 35px !important;
+  padding-top: 15px !important;
 }
 
 .span4 {
@@ -563,4 +569,353 @@ span.title {
 
 .form-actions {
   background-color: #fff !important;
+}
+
+/* Movie list page */
+
+.page-section-dark .list_title a {
+  color: #fff !important;
+}
+
+.tip-user {
+  border: none !important;
+}
+
+.list_owner_container {
+  border-bottom: none !important;
+  background-color: #142842 !important;
+}
+
+.list_owner_container .filmow-breadcrumb {
+  color: #fff !important;
+}
+
+.list_owner_container .filmow-breadcrumb .item {
+  color: #21a9df !important;
+}
+
+.list_owner_container .pull-left {
+  color: #fff !important;
+}
+
+.list_owner_container .name {
+  color: #21a9df !important;
+}
+
+.list_owner_container .title {
+  color: #fff !important;
+}
+
+.list_owner_container .text-right {
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.list_movies_list img {
+  border-radius: 5px !important;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
+}
+
+/* Lists containing movie page */
+
+.lists_about_container {
+  background-color: #142842 !important;
+}
+
+.lists_about {
+  color: #21a9df !important;
+}
+
+/* User page */
+
+.navbar-user {
+  background-color: #21a9df !important;
+}
+
+.cover-stats .label {
+  background-color: #142842 !important;
+}
+
+.last-favorites .page-section-dark-title {
+  color: #21a9df !important;
+  font-size: 18px !important;
+}
+
+.page-section-dark .page-section-dark-text,
+.page-section-dark .page-section-dark-text a,
+.page-section-dark,
+.page-section-dark a {
+  color: #9ca0a4 !important;
+}
+
+.page-about {
+  padding: 5px 10px !important;
+  margin: 0px 180px 0px !important;
+  border-top-right-radius: 35px !important;
+  border-top-left-radius: 35px !important;
+}
+
+.title-actions a {
+  font-size: 14px !important;
+}
+
+.title-section {
+  line-height: 40px !important;
+}
+
+.my_filmow_stats_wrapper {
+  background-color: #bfcad2 !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.my_filmow_stats_wrapper .tab-content {
+  background-color: #e2ebee !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-tabs > .active > a:not(.form-post-group) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.movies-list-six-big {
+  transform: scale(0.98) !important;
+}
+
+.last-seen {
+  margin-bottom: 15px !important;
+}
+
+.span2 img {
+  border-radius: 5px !important;
+}
+
+.last-scraps .btn-primary {
+  margin-top: 5px !important;
+}
+
+.navbar-user .dropdown {
+  font-size: 11px !important;
+}
+
+.sidebar-last-users {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.sidebar-last-users h4 {
+  font-size: 12px !important;
+}
+
+.last-scraps {
+  margin-top: 35px;
+}
+
+.title-actions {
+  margin-left: 5px !important;
+}
+
+.has-match {
+  display: none !important;
+}
+
+/* Watched movies page */
+
+.span3 .nav-sidebar > .active > a {
+  color: #142842 !important;
+}
+
+.nav-sidebar.nav-tabs > li.active > a {
+  border: none !important;
+}
+
+.span5 .btn {
+  margin-top: 5px !important;
+}
+
+/* Profile comments page */
+
+.span7 .comments-list-item {
+  margin-left: 20px !important;
+}
+
+.movie_comment_item .wrapper {
+  margin-right: 20px !important;
+}
+
+/* Friends list */
+
+.people-list img {
+  border-radius: 0% !important;
+  border-radius: 4px !important;
+}
+
+.sidebar-top-movies {
+  margin-top: 25px !important;
+}
+
+/* Who watched page */
+
+.nav-white-filled > .nav-tabs > li.active > a {
+  border-radius: 5px 5px 5px !important;
+}
+
+.nav-white-filled > .nav-tabs > li > a:hover {
+  border-radius: 5px 5px 5px !important;
+}
+
+/* Movie profile comments page */
+
+.navbar-sub .star-rating-container strong {
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+.discussions-container {
+  border-right: none !important;
+}
+
+/* Movie details */
+
+.movie-full-details .lead {
+  font-weight: 700 !important;
+}
+
+.left-content {
+  border: none !important;
+}
+
+/* Groups home page */
+
+.wrapper-create-group {
+  background-color: #142842 !important;
+}
+
+.groups-submenu a {
+  text-transform: lowercase !important;
+  text-transform: capitalize !important;
+}
+
+.groups-submenu a:visited {
+  background-color: #3a4b61 !important;
+  color: #b2b8bc !important;
+}
+
+.groups-submenu a:hover {
+  background-color: #142842 !important;
+}
+.groups-submenu .active:visited {
+  color: #b2b8bc !important;
+}
+
+.highlight-groups {
+  background-color: #142842 !important;
+}
+
+.highlight-groups h1 {
+  color: #fff !important;
+}
+.wrapper-create-group p {
+  color: #21a9df !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.box-groups {
+  margin-bottom: 35px !important;
+}
+
+.form-post-group > .first {
+  background-color: #788693 !important;
+}
+
+.form-post-group a:active {
+  background-color: #788693 !important;
+}
+
+.groups-content .filmow-breadcrumb {
+  margin-top: 30px !important;
+}
+
+.create-post-form {
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 0.3) !important;
+}
+
+.chars-remaining {
+  margin-right: 10px !important;
+}
+
+.box-members ul {
+  border: none !important;
+}
+
+.box-members img {
+  border: none !important;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.5) !important;
+}
+
+/* Movies page */
+
+.title-section small {
+  display: none !important;
+}
+
+.sidebar-last-users img {
+  border-radius: 50% !important;
+}
+
+#header {
+  border-bottom: 1px solid #d4d9df !important;
+}
+
+/* Artist profile page */
+
+.artist-header {
+  background-color: #142842 !important;
+}
+
+.artist-header .alternative-names {
+  color: #fff !important;
+}
+
+.artist-header .sidebar-left .box-title {
+  display: none !important;
+}
+
+.artist-header .sidebar-left .box-title span {
+  display: none !important;
+}
+
+/* Artist filmography */
+
+.artist-header .movies_list {
+  margin-left: 30px !important;
+}
+
+.navbar-sub {
+  background-color: #21a9df !important;
+}
+
+.artist-profile .filmow-breadcrumb {
+  margin-top: 10px !important;
+}
+
+.total-count {
+  border-radius: 5px !important;
+}
+
+.artist-avatars img {
+  border: none !important;
+}
+
+.box-photo-list {
+  margin-bottom: 50px !important;
+}
+
+.sidebar-right {
+  height: 100% !important;
 }
