@@ -116,6 +116,14 @@ nav div .navbar-inner {
   background-color: #ffff;
 }
 
+.dropdown-menu a {
+  font-size: 12px !important;
+}
+
+.dropdown-menu .empty {
+  font-size: 12px !important;
+}
+
 div .dropdown {
   font-size: 10px !important;
 }
@@ -229,11 +237,11 @@ div .page-section-title-dark {
   padding-bottom: 20px;
 }
 
-img.lazyloaded:not(.stars) {
+img.lazyloaded {
   border: none !important;
   border-width: 0 !important;
   border: 0 !important;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
 }
 
@@ -248,7 +256,17 @@ div .title-section a:not(.btn-title-tag) {
 }
 
 span.legend.sn {
-  bottom: 10px !important;
+  bottom: 6px !important;
+  left: 0px !important;
+}
+
+span.legend.ws {
+  bottom: 6px !important;
+  left: 0px !important;
+}
+
+span.legend.nw {
+  bottom: 6px !important;
   left: 0px !important;
 }
 
@@ -270,7 +288,7 @@ span.title {
 .movie-rating-average {
   background-image: none !important;
   background-color: #f7c259 !important;
-  opacity: 0.8;
+  opacity: 0.9;
   border: none !important;
   text-shadow: none !important;
 }
@@ -479,13 +497,11 @@ span.title {
 .movie-details-more .span5 {
   float: right;
 }
-
-.wrapper img:not(.stars) {
-  border-radius: 5px !important;
+.last-favorites .wrapper img {
+  border-radius: 3px !important;
   border: none !important;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
 }
-
 .movie-status {
   display: none !important;
 }
@@ -612,7 +628,7 @@ span.title {
 }
 
 .list_movies_list img {
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
 }
 
@@ -626,7 +642,7 @@ span.title {
   color: #21a9df !important;
 }
 
-/* User page */
+/* User profile page */
 
 .navbar-user {
   background-color: #21a9df !important;
@@ -664,7 +680,7 @@ span.title {
 }
 
 .my_filmow_stats_wrapper {
-  background-color: #bfcad2 !important;
+  background-color: #d2d9df !important;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
@@ -677,8 +693,8 @@ span.title {
 }
 
 .nav-tabs > .active > a:not(.form-post-group) {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .movies-list-six-big {
@@ -690,7 +706,7 @@ span.title {
 }
 
 .span2 img {
-  border-radius: 5px !important;
+  border-radius: 3px !important;
 }
 
 .last-scraps .btn-primary {
@@ -750,7 +766,7 @@ span.title {
 
 .people-list img {
   border-radius: 0% !important;
-  border-radius: 4px !important;
+  border-radius: 3px !important;
 }
 
 .sidebar-top-movies {
@@ -759,12 +775,12 @@ span.title {
 
 /* Who watched page */
 
-.nav-white-filled > .nav-tabs > li.active > a {
-  border-radius: 5px 5px 5px !important;
-}
-
-.nav-white-filled > .nav-tabs > li > a:hover {
-  border-radius: 5px 5px 5px !important;
+.my_filmow_stats_wrapper
+  .nav-white-filled
+  > .nav-tabs
+  > li.active
+  > a:not(.nav-white-filled) {
+  background-color: #e2ebee !important;
 }
 
 /* Movie profile comments page */
@@ -890,8 +906,6 @@ span.title {
   display: none !important;
 }
 
-/* Artist filmography */
-
 .artist-header .movies_list {
   margin-left: 30px !important;
 }
@@ -913,9 +927,185 @@ span.title {
 }
 
 .box-photo-list {
+  margin-bottom: 40px !important;
+}
+
+.box-worked-artist .span4 {
+  border-bottom: none !important;
+  background: none !important;
+}
+
+.artist-profile .sidebar-right {
+  min-height: 1px !important;
+  background-color: #e7eef5 !important;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.box-worked-artist .tip-artist img {
+  border: none !important;
+  border-radius: 3px !important;
+}
+
+.box-worked-artist {
+  margin-bottom: 40px !important;
+}
+
+.news-list li {
+  border-bottom: none !important;
+}
+
+.box-related-news {
+  margin-bottom: 40px !important;
+}
+
+.box-list-fans .span4 {
+  border-top: none !important;
+}
+
+.box-list-fans img {
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.5) !important;
+}
+
+.page-artists-photos .sidebar-right {
+  display: none !important;
+}
+
+.page-artists-related-content .sidebar-right {
+  display: none !important;
+}
+
+.page-artists-related-content .sidebar-left {
+  padding: 0px 65px !important;
+}
+
+.page-artists-fans .sidebar-right {
+  display: none !important;
+}
+
+.box-title span {
+  display: none !important;
+}
+
+.box-title {
+  margin-top: 20px !important;
+  font-size: 1.2em !important;
+  font-weight: 700 !important;
+  color: #323232 !important;
+  text-transform: uppercase;
+}
+
+.box-bibliography .movies_list {
+  margin: auto !important;
+}
+
+#as-cast {
+  border-bottom: 0px !important;
+}
+
+#as-director {
+  border-bottom: 0px !important;
+}
+
+#as-writer {
+  border-bottom: 0px !important;
+}
+
+#as-director {
+  border-bottom: 0px !important;
+}
+
+.media-heading {
+  margin-bottom: 0px !important;
+}
+
+/* General */
+
+.control-group {
+  margin-bottom: 30px !important;
+}
+
+.quem-ja-viu img {
+  border: none !important;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+}
+
+.quem-quer-ver img {
+  border: none !important;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+}
+
+.quem-nao-quer-ver img {
+  border: none !important;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+}
+
+.quem-marcou-como-favorito img {
+  border: none !important;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+}
+
+.quem-ja-avaliou img {
+  border: none !important;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+}
+
+.media-body .icon-heart {
+  color: #ca0000 !important;
+}
+
+.sidebar-my-filmow {
+  margin-top: 30px !important;
+}
+
+.icon-flag {
+  color: #b94a48 !important;
+}
+
+.btn-friendship-actions {
+  margin-left: 5px !important;
+}
+
+.tab-pane .tip-movie img {
+  border-radius: 3px !important;
+}
+
+.my-activities .nav-white-filled .tab-content-page {
+  border-right: none !important;
+}
+
+.user-sidebar-activities {
+  border-left: none !important;
+}
+
+.tab-pane .comments-list-item {
+  margin-top: 20px !important;
+}
+
+.tab-pane .image-profile img {
+  object-fit: cover !important;
+  aspect-ratio: 1/1 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 0.3);
+}
+
+.span6 .description p {
   margin-bottom: 50px !important;
 }
 
-.sidebar-right {
-  height: 100% !important;
+.navbar-user a {
+  color: #fff !important;
+}
+
+.desc-profile {
+  display: none !important;
+}
+
+.user-sidebar-activities {
+  margin-top: 0px !important;
+}
+
+.icon-ok-sign {
+  transform: scale(0.7) !important;
 }
