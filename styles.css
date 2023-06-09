@@ -26,10 +26,6 @@ i .icon-globe {
   display: none !important;
 }
 
-iframe {
-  display: none !important;
-}
-
 /* Slogan and film logo */
 
 .navbar-filmow .slogan {
@@ -49,13 +45,6 @@ iframe {
   margin-top: 10px !important;
 }
 
-.navbar-filmow .brand img {
-  height: 44px !important;
-  background-image: url('./images/new-logo.png') !important;
-  z-index: 1000 !important;
-  margin-top: 5px !important;
-}
-
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover {
   background-color: #142842 !important;
@@ -73,6 +62,11 @@ a {
 
 .navbar .dropdown .nav > li > a {
   color: #142842 !important;
+}
+
+.dropdown-menu .btn-blocking,
+.dropdown-menu > li > a {
+  color: #000000 !important;
 }
 
 .navbar .nav > li > a {
@@ -116,6 +110,11 @@ nav div .navbar-inner {
   background-color: #ffff;
 }
 
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #fff !important;
+}
 .dropdown-menu a {
   font-size: 12px !important;
 }
@@ -126,10 +125,6 @@ nav div .navbar-inner {
 
 div .dropdown {
   font-size: 10px !important;
-}
-
-.nav .dropdown-toggle {
-  background-color: #fff;
 }
 
 .navbar-inner li {
@@ -169,7 +164,6 @@ div .navbar-inner .pull-left {
 
 a .dropdown-toggle {
   background-color: #fff !important;
-  z-index: -90000 !important;
 }
 
 .container-align-items {
@@ -249,10 +243,16 @@ div .title-section a {
   color: #4e4e4e !important;
 }
 
-div .title-section a:not(.btn-title-tag) {
-  font-size: 18px !important;
+div
+  .title-section
+  a:not(.span8 h2 a, .span4 h4 a, .span9 h2 a, .btn-title-tag, .span8 h1 a) {
+  font-size: 12px !important;
   font-weight: 700 !important;
   padding-top: 20px !important;
+}
+
+.span9 h2 a {
+  font-size: 18px !important;
 }
 
 span.legend.sn {
@@ -497,7 +497,8 @@ span.title {
 .movie-details-more .span5 {
   float: right;
 }
-.last-favorites .wrapper img {
+
+.last-favorites img:not(.stars img) {
   border-radius: 3px !important;
   border: none !important;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
@@ -518,7 +519,7 @@ span.title {
 
 .avatar .tip-user img {
   border-radius: 50%;
-  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.5) !important;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.8) !important;
 }
 
 .comment-text {
@@ -627,7 +628,7 @@ span.title {
   text-align: center !important;
 }
 
-.list_movies_list img {
+.list_movies_list img:not(.stars img) {
   border-radius: 3px !important;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
 }
@@ -646,6 +647,10 @@ span.title {
 
 .navbar-user {
   background-color: #21a9df !important;
+}
+
+.navbar-user a {
+  color: #fff !important;
 }
 
 .cover-stats .label {
@@ -722,8 +727,8 @@ span.title {
   margin-bottom: 5px !important;
 }
 
-.sidebar-last-users h4 {
-  font-size: 12px !important;
+.sidebar-last-users span {
+  font-size: 14px !important;
 }
 
 .last-scraps {
@@ -791,7 +796,7 @@ span.title {
 }
 
 .discussions-container {
-  border-right: none !important;
+  border-left: 1px solid #dcdcdc !important;
 }
 
 /* Movie details */
@@ -880,20 +885,24 @@ span.title {
   display: none !important;
 }
 
-.sidebar-last-users img {
+.sidebar-last-users img:not(.list_covers img) {
   border-radius: 50% !important;
-}
-
-#header {
-  border-bottom: 1px solid #d4d9df !important;
 }
 
 /* Artist profile page */
 
 .artist-header {
   background-color: #142842 !important;
+  display: inline !important;
 }
 
+.artist-profile {
+  background-color: #142842 !important;
+  height: 150px !important;
+}
+#footer {
+  position: static !important;
+}
 .artist-header .alternative-names {
   color: #fff !important;
 }
@@ -937,7 +946,7 @@ span.title {
 
 .artist-profile .sidebar-right {
   min-height: 1px !important;
-  background-color: #e7eef5 !important;
+  background-color: #f4f7fa !important;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -1019,7 +1028,7 @@ span.title {
   margin-bottom: 0px !important;
 }
 
-/* General */
+/* General modifications */
 
 .control-group {
   margin-bottom: 30px !important;
@@ -1108,4 +1117,94 @@ span.title {
 
 .icon-ok-sign {
   transform: scale(0.7) !important;
+}
+
+.movies-related img:not(.stars img) {
+  border: none !important;
+  border-radius: 3px !important;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.3) !important;
+}
+
+.list_movies_container .span8 .page-content {
+  border-right: none !important;
+}
+
+.media-footer {
+  display: inline-block !important;
+}
+.media-footer .icon-flag {
+  margin-left: 10px !important;
+}
+
+#header:not(.nav-submenu .container) {
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 0.4) !important;
+  z-index: 900 !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.carousel-control {
+  background: rgb(0 0 0 / 0.4) !important;
+}
+
+.img-full {
+  object-fit: cover !important;
+}
+
+.bg1 {
+  padding-bottom: 0px !important;
+  height: 100vh !important;
+}
+
+#body_wrapper {
+  padding-bottom: 0px !important;
+  min-height: 0vh;
+}
+
+.box-worked-artist h2 {
+  position: relative !important;
+  width: 200px !important;
+  line-height: 20px !important;
+  margin-bottom: -25px !important;
+}
+
+#as-cast h2 {
+  line-height: 20px !important;
+}
+
+.span5 .btn-details {
+  margin-top: 3px !important;
+}
+
+.directors .btn-tag {
+  margin-top: 3px !important;
+}
+
+.movie-full-details .btn-tag {
+  margin-top: 3px !important;
+}
+
+.nav-white-filled .nav-tabs > li > a {
+  border-radius: 4px !important;
+}
+
+.nav-white-filled .nav-tabs > li > a:visited:not(.nav-small > li > a) {
+  border-radius: 4px !important;
+  background-color: #dbe6f0 !important;
+}
+
+.nav-small > li > a {
+  background-color: #fff !important;
+}
+
+.sidebar-box .list_covers {
+  border-radius: none !important;
+}
+
+.artist-profile .navbar-sub > li > a {
+  color: #fff !important;
+}
+
+.scrap-form .btn-primary {
+  margin-top: 3px !important;
 }
