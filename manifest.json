@@ -1,6 +1,6 @@
 {
   "name": "Filmow Redesign",
-  "description": "Redesign mais limpo e atual para o site Filmow.",
+  "description": "Redesign mais moderno do site Filmow.",
   "version": "1.0.0",
 
   "icons": {
@@ -19,8 +19,7 @@
     {
       "run_at": "document_start",
       "matches": ["https://filmow.com/*"],
-      "css": ["styles.css"],
-      "js": ["script.js"]
+      "css": ["styles.css"]
     }
   ],
   "manifest_version": 3
