@@ -1,20 +1,20 @@
 # Filmow Redesign
 
-![filmow-readme-description](https://github.com/scsoares/filmow-redesign-extension/assets/121296372/4f37864d-ac78-4ced-8d16-5b3ffd48f12a)
+![filmow-readme-description-ptbr](https://github.com/scsoares/filmow-redesign-extension/assets/121296372/99215b5f-7de2-4337-bcd3-e7780fd61b03)
 
-Redesign do [Filmow](http://filmow.com/). Filmow é uma rede social brasileira baseada em marcar filmes e séries assistidos, similar ao Letterboxd e TV Time mas com um foco maior no aspecto social. O site tem uma base de usuários ativa e significativa, mas o design dele é ultrapassado e não é atualizado há bastante tempo. Por isso, decidi criar uma extensão do Chrome que substitui o CSS original do site e deixa ele com um layout um pouco mais limpo e moderno.
+[Filmow](http://filmow.com/) é uma rede social brasileira baseada em marcar filmes e séries assistidos, similar ao Letterboxd e TV Time mas com um foco maior no aspecto social. O site tem uma base de usuários ativa e significativa, mas o design dele é ultrapassado e não é atualizado há bastante tempo. Por isso, decidi criar uma extensão do Chrome que substitui o CSS original do site e deixa ele com um layout um pouco mais limpo e moderno.
 
 Se você preferir, pode ler esta documentação em <a href="https://github.com/scsoares/filmow-redesign-extension/blob/master/README.md">inglês</a> ![great britain](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png)
 
-### Pré-requisitos
+### Pré-requisitos:
 
-Só é necessário ter o Google Chrome ou qualquer outro navegador instalado (de preferência, Edge ou Opera).
+Para usar a extensão, só é necessário ter o Google Chrome ou qualquer outro navegador instalado (de preferência, Edge ou Opera).
 
 Instale o Google Chrome [aqui](https://www.google.com/chrome/?brand=YTUH&gclid=CjwKCAjwm4ukBhAuEiwA0zQxk7nm0WqUTOwysM_j1qS-gkP8u2WvhSQBPqjOn5uNgyKhhk5T_-6f6BoCX6sQAvD_BwE&gclsrc=aw.ds).
 
-### Instruções de instalação
+### Instruções de instalação:
 
-1. Baixe este repositório do Github em pasta zipada [aqui](https://github.com/scsoares/filmow_redesign/archive/master.zip).
+1. Baixe este repositório do Github em pasta zipada [aqui](https://github.com/scsoares/filmow-redesign-extension/archive/master.zip).
 
 2. Extraia a pasta zipada e você terá uma pasta de nome `filmow-redesign-extension`.
 
@@ -37,9 +37,13 @@ Instale o Google Chrome [aqui](https://www.google.com/chrome/?brand=YTUH&gclid=C
 - 1.0.0
   - Versão inicial
 
+## Contribuição
+
+Se tiver alguma sugestão de melhora, sinta-se livre pra [me mandar um e-mail](mailto:sasodsgn@gmail.com) ou solicitar um pull request! 🙂
+
 ## Observações
 
-- Essa extensão funciona apenas na versão desktop do site.
+- Funciona apenas na versão desktop do site.
 
 ## License
 
