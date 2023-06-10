@@ -16,13 +16,13 @@ Install Google Chrome [here](https://www.google.com/chrome/?brand=YTUH&gclid=Cjw
 
 1. Download this repo as a [ZIP file from GitHub](https://github.com/scsoares/filmow_redesign/archive/master.zip).
 
-2. Unzip the file and you should have a folder named `filmow-redesign-extension`.
+2. Unzip the file and you should have a folder named `filmow-redesign-extension-main`.
 
 3. In Chrome/Edge/Opera, go to the extensions page (`chrome://extensions`, `edge://extensions` or `opera://extensions`).
 
 4. Enable Developer Mode.
 
-5. Drag the `filmow-redesign-extension` folder anywhere on the page to import it (do not delete the folder afterwards, you must have it on your computer for the extension to work).
+5. Drag the `filmow-redesign-extension-main` folder anywhere on the page to import it (do not delete the folder afterwards, you must have it on your computer for the extension to work).
 
 ## Built With
 
