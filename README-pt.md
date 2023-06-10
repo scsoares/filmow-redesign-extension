@@ -16,7 +16,7 @@ Instale o Google Chrome [aqui](https://www.google.com/chrome/?brand=YTUH&gclid=C
 
 1. Baixe este repositório do Github em pasta zipada [aqui](https://github.com/scsoares/filmow-redesign-extension/archive/master.zip).
 
-2. Extraia a pasta zipada e você terá uma pasta de nome `filmow-redesign-extension`.
+2. Extraia a pasta zipada e você terá uma pasta de nome `filmow-redesign-extension-main`.
 
 3. No Chrome/Edge/Opera, vá ao gerenciador de extensões (`chrome://extensions`, `edge://extensions` ou `opera://extensions`).
 
