@@ -22,7 +22,7 @@ Instale o Google Chrome [aqui](https://www.google.com/chrome/?brand=YTUH&gclid=C
 
 4. Habilite o Modo do Desenvolvedor.
 
-5. Arraste e solte a pasta de nome `filmow-redesign-extension` em qualquer lugar do gerenciador de extensões para importá-la (não delete o arquivo depois, ele precisa estar no seu computador para que a extensão funcione).
+5. Arraste e solte a pasta de nome `filmow-redesign-extension-main` em qualquer lugar do gerenciador de extensões para importá-la (não delete o arquivo depois, ele precisa estar no seu computador para que a extensão funcione).
 
 ## Feito com
 
